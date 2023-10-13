@@ -1,0 +1,113 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  background: -webkit-gradient(linear, right top, left bottom, color-stop(10%, #4D0294), color-stop(40%,#390280), color-stop(60%, #190361));
+  
+  animation: gradient 10s ease infinite;
+  background-size: 200% 200%;
+
+  ont-family: 'DM Sans', sans-serif;  
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.hide{
+  display: none;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color:#34355B;
+}
+.screen1 p{
+  margin-top: 1.4rem;
+  margin-bottom: 2.6rem;
+  font-family: 'DM Sans', sans-serif;  
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+}
+.screen1{
+  width: 42.8rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  padding: 4.8rem 6.4rem 6.4rem;
+  text-align: center;
+  
+}
+
+.screen3{
+  width: 42.8rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  padding: 4.8rem 6.4rem 4.8rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:1.7rem;
+}
+.screen1 img{
+  width: 16rem;
+}
+.screen3 img{
+  width: 30rem;
+  margin: 0 auto;
+  margin-block: 4.2rem;
+}
+
+.screen3 h3{
+  background-color: #E4EDF1;
+  padding: 1rem;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
+
+.screen3 button{
+  padding: 0.9rem;
+  color:#fff;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  border:none;
+  border-radius: 0.4rem;
+  background-color: #FF9500;
+  cursor: pointer;
+}
+
+.screen3 button:hover{
+  background-color: #ca7804;
+  
+  transition: background .3s;
+
+}
+
+/*@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+*/
